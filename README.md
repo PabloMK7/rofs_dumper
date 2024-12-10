@@ -4,8 +4,15 @@ Allows dumping very early 3DS ROFS containers.
 
 ## Compiling
 
+Add `-static` if static linking is needed
+
+### Windows
+
 `g++ -std=c++20 main.cpp -o rofs_dump.exe`
-(Add `-static` if static linking is needed)
+
+### MacOS / Linux
+
+`g++ -std=c++20 main.cpp -o rofs_dump`
 
 ## Usage
 
