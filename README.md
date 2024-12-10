@@ -16,7 +16,7 @@ Add `-static` if static linking is needed
 
 ## Usage
 
-`rofs_dump.exe (in_file) (out_dir)`
+`rofs_dump (in_file) (out_dir)`
 
 ## License
 
